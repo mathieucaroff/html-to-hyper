@@ -1,0 +1,51 @@
+/**
+ * Mini css-reset
+ */
+*,
+*:before,
+*:after {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: normal;
+  height: auto;
+  list-style: none;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  padding: 0;
+  text-align: left;
+}
+
+h1 {
+  font-size: 250%;
+}
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textareaSectionCore {
+  background-color: #333;
+  color: #fff;
+  height: 260px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.divareaSectionCore {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.warn {
+  background-color: #111;
+  color: #ff0;
+}
+
+.error {
+  background-color: #111;
+  color: #f66;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "html-to-hyper",
+  "version": "1.0.0",
+  "author": "Mathieu CAROFF <mathieu.caroff@free.fr>",
+  "repository": "https://github.com/mathieucaroff/html-to-hyper",
+  "license": "ISC",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "typescript": "^5.0.2"
+  }
+}
